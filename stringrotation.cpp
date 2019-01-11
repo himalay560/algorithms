@@ -11,7 +11,7 @@ int main()
         s[i]=(char*)malloc(100);    //declaring size of each row
         cin>>s[i];
     }
-    // for acyclic rotation
+    // for anticlockwise rotation
     for(int i=1;i<=n;i++)
     {
         x=n;
@@ -24,7 +24,7 @@ int main()
         cout<<endl;
     }
     cout<<"\n\n\t*******\n\n";
-    //for cyclic rotation
+    //for clockwise rotation
     for(int i=0;i<n;i++)
     {
         x=n;
