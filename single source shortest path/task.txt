@@ -1,0 +1,15 @@
+to find the minimum cost to reach from one node in graph to all other nodes in graph represented in the form of matrix.  
+
+input
+ 6
+
+0 50 45 10 99 99
+99 0 10 15 99 99
+99 99 0 99 30 99
+20 99 99 0 15 99
+99 20 35 99 0 99
+99 99 99 99 99 0
+
+output
+
+0 45 45 10 25 99
