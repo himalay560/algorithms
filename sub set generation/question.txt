@@ -1,0 +1,28 @@
+given a string s generate all the possible sub set of that string.
+
+example
+abc
+
+output
+a
+ab
+ac
+b
+bc
+c
+
+approach
+
+Set  = [a,b,c]
+no of sub sets = 2^3 = 8
+Run for binary values = 000 (0) to 111 (7) 
+
+Value of binary           Subset
+    000   (0)              -> Empty set
+    001   (1)              -> a
+    010   (2)              -> b
+    011   (3)              -> ab
+    100   (4)              -> c
+    101   (5)              -> ac
+    110   (6)              -> bc
+    111   (7)              -> abc
