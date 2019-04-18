@@ -1,0 +1,16 @@
+you are given a string s and u need to print all the sub strings of s in any order.
+
+example
+s = abcd
+
+the sub strings of s are
+a
+ab
+abc
+abcd
+b
+bc
+bcd
+c
+cd
+d
